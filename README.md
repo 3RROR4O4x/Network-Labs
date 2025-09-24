@@ -13,7 +13,7 @@ Hands on networking labs: subnetting, routing, DNS, and wireshark captures
 Step 1 — Identify Your Active Interface
 
 - Check all network interfaces and pick the one carrying your Internet traffic.
-  # **COMMAND**
+   **COMMAND**
 - ip addr show
 - ip route show
   
