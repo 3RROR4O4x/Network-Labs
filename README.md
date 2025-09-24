@@ -14,11 +14,8 @@ Step 1 — Identify Your Active Interface
 
 - Check all network interfaces and pick the one carrying your Internet traffic.
 - ip addr show
-
--ip route show
-
-- Look for an interface like eth0, ens33, enp0s3, or wlan0 with an IP (e.g. 192.168.1.x).
-
+- ip route show
+- Look for an interface like eth0, ens33, enp0s3, or wlan0 with an IP (e.g. 192.168.1.x). 
 - Confirm with ip route show → the line default via ... dev <iface> tells you which one is used.
 
 Example:
